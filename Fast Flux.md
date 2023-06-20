@@ -1,0 +1,3 @@
+Técnica DNS usada por botnets para esconder phising, web proxying, entrega de malware y comunicación de malware entre hosts comprometidos actuando como proxys. El objetivo de usar una red Fast Flux es el de hacer las comunicaciones entre el malware y el servidor más difíciles para encontrar por profesionales.
+
+El concepto primario de una red Fast Flux es el de tener muchas direcciones IPs asociadas con un nombre de dominio, el cual está cambiando constantemente.

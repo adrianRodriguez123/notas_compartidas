@@ -1,0 +1,2 @@
+[[Windows]]
+Esta herramienta se encarga de coger información de tu ordenador y la muestra. La info es sobre el hardware, componentes del sistem y entorno del software, lo cual se puede utilizar para diagnosticar errores del sistema.

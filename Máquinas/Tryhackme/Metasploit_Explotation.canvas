@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"dcd44403c0161465","x":-240,"y":-380,"width":250,"height":60,"type":"text","text":"Metasploit: Explotation"},
+		{"id":"2447fbbe9d857a6b","x":-192,"y":-220,"width":154,"height":60,"type":"text","text":"Open ports"},
+		{"id":"29acea6f83ffae19","x":-638,"y":-100,"width":138,"height":60,"type":"text","text":"FTP - 21"},
+		{"id":"72ef72dab93f05a8","x":-713,"y":12,"width":193,"height":60,"type":"text","text":"ProFTPD 1.3.5e"},
+		{"id":"a755236ac8b4c646","x":-741,"y":152,"width":250,"height":228,"type":"text","text":"exploit/unix/ftp/proftpd_modcopy_exec\n\nMetasploit exploit of rank: Excellent for the version 1.3.5. The exploit is Mod_Copy Command Execution."},
+		{"id":"c0ca628d7f6b1fa9","x":-320,"y":-66,"width":140,"height":60,"type":"text","text":"SSH - 22 "},
+		{"id":"7aa635def4feef17","x":-373,"y":60,"width":250,"height":60,"type":"text","text":"OpenSSH 7.6p1"},
+		{"id":"809357f4fc11032b","x":-373,"y":200,"width":250,"height":60,"type":"text","text":""},
+		{"id":"19b4a5b6239728a3","x":8,"y":-83,"width":250,"height":60,"type":"text","text":"netbios-ssn - 139"},
+		{"id":"92ab81a083f511c9","x":8,"y":69,"width":292,"height":102,"type":"text","text":"Samba smbd 3.x - 4.x\nWorkgroup: ACME IT SUPPORT"},
+		{"id":"bf63783ed35b7b5a","x":30,"y":244,"width":350,"height":336,"type":"text","text":"auxiliary/dos/samba/read_nttrans_ea_list\nMetasploit Auxiliary:\n\nInteger overflow in the read_nttrans_ea_list function in nttrans.c \n  in smbd in Samba 3.x before 3.5.22, 3.6.x before 3.6.17, and 4.x \n  before 4.0.8 allows remote attackers to cause a denial of service \n  (memory consumption) via a malformed packet. Important Note: in \n  order to work, the \"ea support\" option on the target share must be \n  enabled.\n\n"}
+	],
+	"edges":[
+		{"id":"9c8869462578ee1b","fromNode":"dcd44403c0161465","fromSide":"bottom","toNode":"2447fbbe9d857a6b","toSide":"top"},
+		{"id":"b33fff040bfad71c","fromNode":"2447fbbe9d857a6b","fromSide":"left","toNode":"29acea6f83ffae19","toSide":"top"},
+		{"id":"53c94bbb2bf9677f","fromNode":"29acea6f83ffae19","fromSide":"bottom","toNode":"72ef72dab93f05a8","toSide":"top"},
+		{"id":"71011e90c0155c6a","fromNode":"72ef72dab93f05a8","fromSide":"bottom","toNode":"a755236ac8b4c646","toSide":"top"},
+		{"id":"88add8e1e564a2a0","fromNode":"2447fbbe9d857a6b","fromSide":"bottom","toNode":"c0ca628d7f6b1fa9","toSide":"top"},
+		{"id":"47d59ef7466d693c","fromNode":"c0ca628d7f6b1fa9","fromSide":"bottom","toNode":"7aa635def4feef17","toSide":"top"},
+		{"id":"294ac326f50622e5","fromNode":"7aa635def4feef17","fromSide":"bottom","toNode":"809357f4fc11032b","toSide":"top"},
+		{"id":"5243f3b272ef656d","fromNode":"2447fbbe9d857a6b","fromSide":"bottom","toNode":"19b4a5b6239728a3","toSide":"top"},
+		{"id":"6b4ea071a692de04","fromNode":"19b4a5b6239728a3","fromSide":"bottom","toNode":"92ab81a083f511c9","toSide":"top"},
+		{"id":"4943c384323d6131","fromNode":"92ab81a083f511c9","fromSide":"bottom","toNode":"bf63783ed35b7b5a","toSide":"top"}
+	]
+}
