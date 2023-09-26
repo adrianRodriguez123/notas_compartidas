@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "3bdef3468b132306",
+    "type": "split",
+    "children": [
+      {
+        "id": "c737fe6e55bb6414",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06a7fdec23034fdc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f707d62ac2a2d851",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf8f3fc59365b7d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8417ef247b24042",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "06f1926eeea5096f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e676ab7c0d78487e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4eb6f6e96011c67e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d695049586f1cf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36510c4476e58eb6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Encoding.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e18e339b59e20403",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Encoding.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fdb2cb8d675d797a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a08fec79dc03e92d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Encoding.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "f8417ef247b24042",
+  "lastOpenFiles": [
+    "CiberSeguridad/Ciberseguridad (Alfonso)/Sistemas Operativos/Linux/Herramientas/Netcat/Reverse Shell.md",
+    "Encoding.md",
+    "Fast Flux.md",
+    "Reverse shell.md",
+    "IA's/Introducción a las IA's.md",
+    "RECOPILACIÓN DEFINITIVA.md",
+    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Shodan.md",
+    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Nmap.md",
+    "CiberSeguridad/Herramientas/NMAP.md",
+    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Phonebook.cz.md",
+    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/WHOIS.md",
+    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/5ª Fase - Covering tracks.md",
+    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/5 Fases de Hacking Ético.md",
+    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/4ª Fase - Maintaning access.md",
+    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/3ª Fase - Exploitation.md",
+    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/2ª Fase - Scanning & Enumeration.md",
+    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/1ª Fase - Reconnaisance (Information gathering).md",
+    "CiberSeguridad/Hack The Box (máquinas)/Máquinas/Easy/Precious.md",
+    "CiberSeguridad/Hack The Box/Máquinas/Easy/MonitorsTwo.md",
+    "CiberSeguridad/Hack The Box (máquinas)/Máquinas/Easy/Soccer.md",
+    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Clearbit.md",
+    "CiberSeguridad/Apuntes de Introducciones/Introducción a la CiberSeguridad/1. Conceptos básicos.md",
+    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Curl.md",
+    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Foto con Virus.md",
+    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/FFUF.md",
+    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Gobuster.md",
+    "CiberSeguridad/Hack The Box (máquinas)/Máquinas",
+    "CiberSeguridad/PREVIO/THM/Untitled",
+    "CiberSeguridad/Apuntes/MySQL",
+    "CiberSeguridad/Máquinas/Tryhackme/Metasploit_Explotation.canvas",
+    "CiberSeguridad/THM/Máquinas THM/Metasploit_Explotation.canvas",
+    "Untitled.canvas",
+    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético",
+    "CiberSeguridad/TCM/Cursos/5 Fases de Hacking Ético",
+    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking",
+    "CiberSeguridad/TCM/Cursos",
+    "CiberSeguridad/TCM/Nueva carpeta",
+    "CiberSeguridad/TCM/Practical Ethical Hacking",
+    "CiberSeguridad/TCM/5 Fases de Hacking Ético",
+    "Imágenes pegadas/Pasted image 20230606130736.png",
+    "Imágenes pegadas/Pasted image 20230606130719.png",
+    "Imágenes pegadas/Pasted image 20230619162009.png",
+    "Imágenes pegadas/Pasted image 20230615090336.png",
+    "Imágenes pegadas/Pasted image 20230606223002.png",
+    "Imágenes pegadas/Pasted image 20230606161347.png",
+    "Imágenes pegadas/Pasted image 20230606153316.png",
+    "Imágenes pegadas/Pasted image 20230606153256.png",
+    "Imágenes pegadas/Pasted image 20230606151817.png",
+    "Imágenes pegadas/Pasted image 20230606151006.png"
+  ]
+}

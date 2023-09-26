@@ -23,7 +23,7 @@ Hay muchísimas combinaciones con [[Nmap]]:
 
 ## GOBUSTER
 
-Sirve para encontrar [[subdirectorios]], localizar un directorio al que puedas subir una [[shell]].
+Sirve para encontrar [[subdirectorios]], localizar un directorio al que puedas subir una [[SHELL]].
 
 Primero escanemos si la web tiene directorios ocultos (Gobuster).
 

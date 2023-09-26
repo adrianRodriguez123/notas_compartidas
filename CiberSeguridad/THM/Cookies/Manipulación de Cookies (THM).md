@@ -6,7 +6,7 @@ Cuándo tengamos un sitio vulnerable en el que, por ejemplo, tengamos un espacio
 
 3. Nos aparecerá una que se llamará "[[authid]]".
 
-4. Copiaremos su valor, el cuál estará en [[base64]], con lo cuál, tendremos que decodificarlo.
+4. Copiaremos su valor, el cuál estará en [[Base64]], con lo cuál, tendremos que decodificarlo.
 
 5. Si hacemos otro usuario y repetimos lo anterior, podremos ver que hay una parte del valor de la cookie que se repite.
 
@@ -14,6 +14,6 @@ Cuándo tengamos un sitio vulnerable en el que, por ejemplo, tengamos un espacio
 
 7. Sabiendo el nombre del usuario al que queremos compremeter, en este caso, "_mcinventory_", con lo que podremos acceder a su usuario de la siguiente manera: "mcinventoryparteQueSeRepite".
 
-8. Esta cookie está decodificada, tenemos que encodificarla a [[base64]] otra vez.
+8. Esta cookie está decodificada, tenemos que encodificarla a [[Base64]] otra vez.
 
 9. Con la cookie encodificada, nos vamos a nuestra página web vulnerable, y en dónde estaba nuestra cookie, pegamos la nueva, reiniciamos... ¡Y ya estaría!
