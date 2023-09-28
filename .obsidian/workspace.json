@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "3bdef3468b132306",
+    "id": "69cc4bee0de8f2c1",
     "type": "split",
     "children": [
       {
-        "id": "c737fe6e55bb6414",
+        "id": "4e730f32b9aa5f05",
         "type": "tabs",
         "children": [
           {
-            "id": "06a7fdec23034fdc",
+            "id": "e5f0f51a67fdbe0c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f707d62ac2a2d851",
+    "id": "6d427db57c4afb4b",
     "type": "split",
     "children": [
       {
-        "id": "bf8f3fc59365b7d8",
+        "id": "09aece04bfaf0de0",
         "type": "tabs",
         "children": [
           {
-            "id": "f8417ef247b24042",
+            "id": "0559fe477dc6d006",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "06f1926eeea5096f",
+            "id": "3b61112a29b317ec",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "e676ab7c0d78487e",
+            "id": "d1ec0a5973f339b0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,20 +68,20 @@
     "width": 300
   },
   "right": {
-    "id": "4eb6f6e96011c67e",
+    "id": "07352182369e50f9",
     "type": "split",
     "children": [
       {
-        "id": "1d695049586f1cf2",
+        "id": "200751c79674fa8b",
         "type": "tabs",
         "children": [
           {
-            "id": "36510c4476e58eb6",
+            "id": "12751682d44ad201",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Encoding.md",
+                "file": "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Avanzados/find.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,19 +93,19 @@
             }
           },
           {
-            "id": "e18e339b59e20403",
+            "id": "5c5c14c39e76599b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Encoding.md",
+                "file": "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Avanzados/find.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "fdb2cb8d675d797a",
+            "id": "b858b74f4e976f14",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -116,12 +116,12 @@
             }
           },
           {
-            "id": "a08fec79dc03e92d",
+            "id": "5cb737af205277d7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Encoding.md"
+                "file": "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Avanzados/find.md"
               }
             }
           }
@@ -134,64 +134,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo canvas": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "daily-notes:Open today's daily note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "f8417ef247b24042",
+  "active": "0559fe477dc6d006",
   "lastOpenFiles": [
-    "CiberSeguridad/Ciberseguridad (Alfonso)/Sistemas Operativos/Linux/Herramientas/Netcat/Reverse Shell.md",
-    "Encoding.md",
-    "Fast Flux.md",
-    "Reverse shell.md",
-    "IA's/Introducción a las IA's.md",
-    "RECOPILACIÓN DEFINITIVA.md",
-    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Shodan.md",
-    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Nmap.md",
-    "CiberSeguridad/Herramientas/NMAP.md",
-    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Phonebook.cz.md",
-    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/WHOIS.md",
-    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/5ª Fase - Covering tracks.md",
-    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/5 Fases de Hacking Ético.md",
-    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/4ª Fase - Maintaning access.md",
-    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/3ª Fase - Exploitation.md",
-    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/2ª Fase - Scanning & Enumeration.md",
-    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético/1ª Fase - Reconnaisance (Information gathering).md",
-    "CiberSeguridad/Hack The Box (máquinas)/Máquinas/Easy/Precious.md",
-    "CiberSeguridad/Hack The Box/Máquinas/Easy/MonitorsTwo.md",
-    "CiberSeguridad/Hack The Box (máquinas)/Máquinas/Easy/Soccer.md",
-    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Clearbit.md",
-    "CiberSeguridad/Apuntes de Introducciones/Introducción a la CiberSeguridad/1. Conceptos básicos.md",
-    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Curl.md",
-    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Foto con Virus.md",
-    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/FFUF.md",
-    "CiberSeguridad/Apuntes/Sistemas Operativos/Linux/Herramientas/Gobuster.md",
-    "CiberSeguridad/Hack The Box (máquinas)/Máquinas",
-    "CiberSeguridad/PREVIO/THM/Untitled",
-    "CiberSeguridad/Apuntes/MySQL",
-    "CiberSeguridad/Máquinas/Tryhackme/Metasploit_Explotation.canvas",
-    "CiberSeguridad/THM/Máquinas THM/Metasploit_Explotation.canvas",
-    "Untitled.canvas",
-    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking/5 Fases de Hacking Ético",
-    "CiberSeguridad/TCM/Cursos/5 Fases de Hacking Ético",
-    "CiberSeguridad/TCM/Cursos/Practical Ethical Hacking",
-    "CiberSeguridad/TCM/Cursos",
-    "CiberSeguridad/TCM/Nueva carpeta",
-    "CiberSeguridad/TCM/Practical Ethical Hacking",
-    "CiberSeguridad/TCM/5 Fases de Hacking Ético",
-    "Imágenes pegadas/Pasted image 20230606130736.png",
-    "Imágenes pegadas/Pasted image 20230606130719.png",
-    "Imágenes pegadas/Pasted image 20230619162009.png",
-    "Imágenes pegadas/Pasted image 20230615090336.png",
-    "Imágenes pegadas/Pasted image 20230606223002.png",
-    "Imágenes pegadas/Pasted image 20230606161347.png",
-    "Imágenes pegadas/Pasted image 20230606153316.png",
-    "Imágenes pegadas/Pasted image 20230606153256.png",
-    "Imágenes pegadas/Pasted image 20230606151817.png",
-    "Imágenes pegadas/Pasted image 20230606151006.png"
+    "probando a/probando 44 444.md",
+    "probando a/probandop 2 23.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Basicos/ls.md",
+    "probando a",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Avanzados/find.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Basicos/ls/ls -a.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Basicos/ls/ls -l.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Basicos/cat.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Avanzados/xargs.md",
+    "Android/Infectando_un_Dispositivo_Android.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Herramientas/Curl.md",
+    "IAs/Introduccion_a_las_IA's.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Tareas_Cron/Haciendo_tareas_cron.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Personalizacion/Nvim.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Personalizacion/kitty.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Permisos/Permisos.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Metodos_de_filtrado/Metodos_de_filtrado.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Herramientas/FFUF.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Herramientas/Clearbit.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Directorios y archivos/Directorios_de_Linux.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Deteccion_del_tipo_y_formato_de_archivos/Deteccion.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Deteccion_del_tipo_y_formato_de_archivos/Busqueda_precisa.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Variables_del_shell/PS1.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Variables_del_shell/PATH.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Variables_del_shell/HOSTNAME.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Para_hacer_comparaciones/diff.md",
+    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Para_hacer_comparaciones/wc.md",
+    "CiberSeguridad/THM/Paths/2.Jr.Penetration_Tester/3. BurpSuite",
+    "CiberSeguridad/THM/Paths/2.Jr.Penetration_Tester/2.Web_Hacking",
+    "CiberSeguridad/THM/Paths/2.Jr.Penetration_Tester/1.Pentesting",
+    "CiberSeguridad/THM/Paths/1.Pre_Security/Fundamentos_de_Windows",
+    "CiberSeguridad/THM/Paths/1.Pre_Security/Como_funciona_la_Web",
+    "CiberSeguridad/THM/Paths/3.Red_Team_Fundamentals",
+    "CiberSeguridad/THM/Paths/2.Jr.Penetration_Tester",
+    "CiberSeguridad/THM/Paths/1.Pre_Security",
+    "CiberSeguridad/THM/Maquinas THM/Metasploit_Explotation.canvas",
+    "CiberSeguridad/THM/Paths",
+    "Imagenes_pegadas/Types in nslookup.png",
+    "Imagenes_pegadas/Pasted image 20230622170959.png",
+    "Imagenes_pegadas/Pasted image 20230622170840.png",
+    "Imagenes_pegadas/Pasted image 20230622170651.png",
+    "Imagenes_pegadas/Pasted image 20230619162009.png",
+    "Imagenes_pegadas/Pasted image 20230615090336.png",
+    "Imagenes_pegadas/Pasted image 20230613115930.png",
+    "Imagenes_pegadas/Pasted image 20230609114532.png",
+    "Imagenes_pegadas/Pasted image 20230609114502.png",
+    "Imagenes_pegadas/Pasted image 20230609114329.png",
+    "CiberSeguridad/PREVIO/THM/Máquinas THM/Metasploit_Explotation.canvas",
+    "Máquinas/Tryhackme/Metasploit_Explotation.canvas"
   ]
 }
