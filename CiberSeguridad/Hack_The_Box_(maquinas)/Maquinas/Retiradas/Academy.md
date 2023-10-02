@@ -81,7 +81,7 @@ Si viajamos hasta el path `/var/www/html/academy`, vemos que hay un directorio l
 
 ![[Academy-HTB-retired-20231001-wwwdatauser2.png]]
 
-Una vez realizado todo este proceso, cuando ejecutamos linPEAS, podemos ver que hay una contraseña nueva, y encima está sin encriptar :). Contraseña: My_V3ryS3cur3_P4ss. También vemos que pertenece a mysql, así que si lo introducimos en phpmyadmin, podemos a entrar a ver la base de datos. Pero bueno, esto es algo que para escalar no nos hace mucha falta, solo nos vendría bien por si queremos hacer cosas malas, Y ESO NO LO VAMOS A HACER.
+Una vez realizado todo este proceso, cuando ejecutamos linPEAS, podemos ver que hay una contraseña nueva, y encima está sin encriptar :). Contraseña: `My_V3ryS3cur3_P4ss`. También vemos que pertenece a mysql, así que si lo introducimos en phpmyadmin (admin:My_V3ryS3cur3_P4ss), podemos a entrar a ver la base de datos. Pero bueno, esto es algo que para escalar no nos hace mucha falta, solo nos vendría bien por si queremos hacer cosas malas, Y ESO NO LO VAMOS A HACER.
 
 ![[Academy-HTB-retired-20231001-passphpmyadmin.png]]
 
@@ -89,8 +89,34 @@ Pero ahora bien, si recordamos, al principio de todo, un tal jdelta había comen
 
 BINGO!
 
-Ahora, a parte de tener una mejor shell (que esto lo podríamos haber conseguido antes), podemos ver si grimmie tiene otros permisos o puede ejecutar sudo o cualquier otra cosa. Vamos, que estamos más cerca de ser `root`.
+Ahora, a parte de tener una mejor shell (que esto lo podríamos haber conseguido antes desde el usuario www-data), podemos ver si grimmie tiene otros permisos o puede ejecutar sudo o cualquier otra cosa. Vamos, que estamos más cerca de ser `root`.
 
 ![[Academy-HTB-retired-20231001-grimmielogin.png]]
 
 # Post-explotación
+
+[TODO]
+
+https://book.hacktricks.xyz/linux-hardening/privilege-escalation#cron-path
+
+Si nos damos cuenta del fichero crontab en linPEAS:
+
+![[Academy-HTB-retired-20231002-crontab.png]]
+
+vemos que hay una línea un tanto curiosa:
+
+`* * * * * /home/grimmie/backup.sh`
+
+Esa línea quiere decir que cada minuto se ejecutará ese script. Si antes, nos hemos entretenido navegando por la máquina para ver si encontrábamos algo interesante también podríamos habernos fijado en el fichero, pero gracias al crontab, sabemos que se ejecuta cada minuto. Solo nos falta saber con qué permisos se ejecuta. Como podemos modificar el fichero `backup.sh` ya que somos los propietarios, vamos a añadir una sentencia para ver con que permisos se ejecuta. Podemos añadir la siguiente línea:
+
+`touch /home/grimmie/prueba`
+
+![[Academy-HTB-retired-20231002-touchcommand.png]]
+
+Cuando pasa 1 minuto...el fichero se creó...y con permisos de root! Por lo tanto ya hemos encontrado una brecha por donde ser root. Si añadimos la siguiente línea en el fichero `backup.sh` podemos crear una shell con permisos de root (ya podemos quitar la anterior con el comando touch) :
+
+![[Academy-HTB-retired-20231002-rootUpgrade.png]]
+
+Cuando el fichero se cree, simplemente tenemos que ejecutar el siguiente comando `/tmp/bash -p` y ya tendremos la shell con root.
+
+![[Academy-HTB-retired-20231002-finish.png]]
