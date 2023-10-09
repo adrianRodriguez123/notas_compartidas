@@ -11,8 +11,12 @@
             "id": "e5f0f51a67fdbe0c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/5. TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Avanzados/find.md",
+                "file": "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/5. TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Avanzados/find.md",
+                "file": "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/5. TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Avanzados/find.md"
+                "file": "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/5. TIPS de subnetting y cálculo veloz de direccionamiento en redes.md"
               }
             }
           }
@@ -134,16 +138,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's daily note": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "0559fe477dc6d006",
+  "active": "e5f0f51a67fdbe0c",
   "lastOpenFiles": [
+    "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/4. Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/5. TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Modelo OSI.md",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake.md",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/3. Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/2. CIDRs y cálculo total de hosts.md",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/1. Qué es y cómo se interpreta una máscara de red.md",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Direcciones/Direcciones MAC (OUI y NIC).md",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Direcciones/Direcciones IP (IPV4 e IPV6).md",
+    "Imagenes_pegadas/Pasted image 20230622002336.png",
+    "Imagenes_pegadas/Pasted image 20230622002116.png",
+    "Imagenes_pegadas/Pasted image 20230622001634.png",
+    "Imagenes_pegadas/Pasted image 20230620212135.png",
+    "Imagenes_pegadas/Pasted image 20230830174130.png",
+    "Imagenes_pegadas/Pasted image 20230830173913.png",
+    "Imagenes_pegadas/Pasted image 20230830171015.png",
+    "Imagenes_pegadas/Pasted image 20230830170309.png",
+    "Imagenes_pegadas/Pasted image 20230829233047.png",
+    "Imagenes_pegadas/Pasted image 20230829232452.png",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting/5. Redes extrañas y casos particulares.md",
+    "Pasted image 20230620212135.png.md",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Subnetting",
+    "CiberSeguridad/Apuntes/Conceptos básicos/Direcciones",
+    "CiberSeguridad/Apuntes/Conceptos básicos",
     "probando a/probando 44 444.md",
     "probando a/probandop 2 23.md",
     "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Basicos/ls.md",
@@ -159,38 +187,13 @@
     "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Tareas_Cron/Haciendo_tareas_cron.md",
     "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Personalizacion/Nvim.md",
     "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Personalizacion/kitty.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Permisos/Permisos.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Metodos_de_filtrado/Metodos_de_filtrado.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Herramientas/FFUF.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Herramientas/Clearbit.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Directorios y archivos/Directorios_de_Linux.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Deteccion_del_tipo_y_formato_de_archivos/Deteccion.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Deteccion_del_tipo_y_formato_de_archivos/Busqueda_precisa.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Variables_del_shell/PS1.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Variables_del_shell/PATH.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Variables_del_shell/HOSTNAME.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Para_hacer_comparaciones/diff.md",
-    "CiberSeguridad/Apuntes/Sistemas_Operativos/Linux/Comandos/Para_hacer_comparaciones/wc.md",
     "CiberSeguridad/THM/Paths/2.Jr.Penetration_Tester/3. BurpSuite",
     "CiberSeguridad/THM/Paths/2.Jr.Penetration_Tester/2.Web_Hacking",
     "CiberSeguridad/THM/Paths/2.Jr.Penetration_Tester/1.Pentesting",
     "CiberSeguridad/THM/Paths/1.Pre_Security/Fundamentos_de_Windows",
     "CiberSeguridad/THM/Paths/1.Pre_Security/Como_funciona_la_Web",
     "CiberSeguridad/THM/Paths/3.Red_Team_Fundamentals",
-    "CiberSeguridad/THM/Paths/2.Jr.Penetration_Tester",
-    "CiberSeguridad/THM/Paths/1.Pre_Security",
     "CiberSeguridad/THM/Maquinas THM/Metasploit_Explotation.canvas",
-    "CiberSeguridad/THM/Paths",
-    "Imagenes_pegadas/Types in nslookup.png",
-    "Imagenes_pegadas/Pasted image 20230622170959.png",
-    "Imagenes_pegadas/Pasted image 20230622170840.png",
-    "Imagenes_pegadas/Pasted image 20230622170651.png",
-    "Imagenes_pegadas/Pasted image 20230619162009.png",
-    "Imagenes_pegadas/Pasted image 20230615090336.png",
-    "Imagenes_pegadas/Pasted image 20230613115930.png",
-    "Imagenes_pegadas/Pasted image 20230609114532.png",
-    "Imagenes_pegadas/Pasted image 20230609114502.png",
-    "Imagenes_pegadas/Pasted image 20230609114329.png",
     "CiberSeguridad/PREVIO/THM/Máquinas THM/Metasploit_Explotation.canvas",
     "Máquinas/Tryhackme/Metasploit_Explotation.canvas"
   ]
